@@ -32,12 +32,12 @@ def mine():
     # click to walk
     print("walking to "+str(x)+", "+str(y))
     pag.click(x, y)
-    time.sleep(2.5) # average walking time (adjust as needed)
+    time.sleep(2.5 + random.uniform(-1.0, 1.0)) # average walking time (adjust as needed)
 
     # start dancing which is mining in a average situation
     print("starting mining")
     pag.press("d") 
-    time.sleep(30) # wait 30 seconds which is enough to get most of money (adjust as needed)
+    time.sleep(30 random.uniform(-5.0, 5.0)) # wait 30 seconds which is enough to get most of money (adjust as needed)
     
 # we dont want to run this if it is getting used as a module
 if __name__ == "__main__":
