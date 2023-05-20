@@ -37,7 +37,7 @@ def mine():
     # start dancing which is mining in a average situation
     print("starting mining")
     pag.press("d") 
-    time.sleep(30 random.uniform(-5.0, 5.0)) # wait 30 seconds which is enough to get most of money (adjust as needed)
+    time.sleep(30 + random.uniform(-5.0, 5.0)) # wait 30 seconds which is enough to get most of money (adjust as needed)
     
 # we dont want to run this if it is getting used as a module
 if __name__ == "__main__":
